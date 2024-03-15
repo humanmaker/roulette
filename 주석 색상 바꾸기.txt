@@ -1,0 +1,13 @@
+1. Visual Studio Code의 왼쪽 하단에 있는 톱니바퀴 모양 아이콘을 
+클릭하여 "Settings"을 선택합니다.
+
+2. 검색 상자에 "tokenColorCustomizations"을 입력하여 
+"editor: tokenColorCustomizations"에 "Edit in settings.json"클릭합니다.
+
+3. settings.json에서 
+ 
+editor.tokenColorCustomizations: {
+    "comments": "#008800" // 주석의 색상을 밝은 녹색으로 변경
+}
+
+처럼 원하는 색상으로 변경
